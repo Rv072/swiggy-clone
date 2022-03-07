@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+}
+.maincontainer {
+  /* background-color: rgb(68, 185, 200); */
+  padding: 8px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.primary-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  word-spacing: 3px;
+}
+.home {
+  border-bottom: 2.5px solid black;
+}
+span.home:hover {
+  cursor: pointer;
+  color: #ffa700;
+}
+span.home::after {
+  border-bottom: 2.5px solid #ffa700;
+}
+
+svg.alogo {
+  transform: rotate(-90deg);
+  fill: #ffa700;
+}
+.home {
+  font-weight: 700;
+  color: #3d4152;
+}
+.loca {
+  color: #686b78;
+}
+.secondary-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  align-items: center;
+}
+.secondary-first {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.new {
+  font-size: 10px;
+  top: 26px;
+  font-weight: 600;
+  color: #ffa700;
+}
+div.label {
+  color: #3d4152;
+  font-size: 15px;
+  font-weight: bolder;
+}
+/* div.secondary-first {
+  cursor: pointer;
+  fill: #ffa700;
+  color: #ffa700;
+} */
+/* svg._1GTCc:hover {
+  fill: #ffa700;
+  cursor: pointer;
+}
+.label:hover {
+  cursor: pointer;
+  color: #ffa700;
+} */
+
+.secondary-first:hover {
+  fill: #ffa700;
+  color: #ffa700;
+  cursor: pointer;
+}
+
+/* ===========================================card======================= */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 12px;
+  background-color: #171a29;
+  justify-content: space-around;
+}
+.img {
+  width: 260px;
+  height: 260px;
+}
+.icon {
+  padding-top: 4px;
+}
